@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 buildscript {
 
     repositories {
@@ -19,6 +20,18 @@ android {
         applicationId "ru.ifmo.md.lesson4"
         minSdkVersion 15
         targetSdkVersion 20
+=======
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1"
+
+    defaultConfig {
+        applicationId "ru.ifmo.md.colloquium2"
+        minSdkVersion 10
+        targetSdkVersion 21
+>>>>>>> origin/master
         versionCode 1
         versionName "1.0"
     }
@@ -31,6 +44,7 @@ android {
 }
 
 dependencies {
+<<<<<<< HEAD
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile 'junit:junit:4.10'
     androidTestCompile 'org.robolectric:robolectric:2.3'
@@ -39,3 +53,7 @@ dependencies {
 androidTest {
     include '**/*Test.class'
 }
+=======
+    compile 'com.android.support:appcompat-v7:21.0.0'
+}
+>>>>>>> origin/master

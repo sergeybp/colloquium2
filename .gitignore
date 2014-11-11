@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 # Files for the Dalvik VM
@@ -25,3 +26,11 @@ proguard/
 
 .idea/
 *.iml
+=======
+.gradle
+.idea
+build
+
+*.iml
+local.properties
+>>>>>>> origin/master
